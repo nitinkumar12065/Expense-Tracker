@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 21px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 401px;
+    margin: auto;
+    background: white;
+    padding: 21px;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.balance-container {
+    background: #e3f2fd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.balance-container h2, .balance-container h3 {
+    margin: 5px 0;
+}
+
+.expense-form input, .expense-form select, .expense-form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expense-form button {
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.expense-form button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
